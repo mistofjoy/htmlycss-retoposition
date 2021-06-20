@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.caption {
+    Background-color: teal;
+    border-radius: 5px;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    width: 714px;
+    padding: 38px;
+}
+
+.caption__title {
+    font-size: 2rem;
+    color: white;
+    background-color:darkgreen;
+    position: relative;
+    bottom: 16px;
+    left: 43%;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.caption__figure {
+    margin: auto;
+}
+
+#caption__text {
+    position: relative;
+    top: 16px;
+    font-size: 1.2rem;
+}
